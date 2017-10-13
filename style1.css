@@ -1,0 +1,321 @@
+#container1{
+	 margin-top: 200px;
+    width: 980px;
+    background-color: white;
+}
+/* col-sm-4 side */
+
+.side{
+        height: 370px;
+        padding:10px 0px 10px 0px;
+        overflow-y: scroll;
+        background-color: white;
+}
+      .slide::-webkit-scrollbar{
+        width: 3px;
+        height: 320px;
+      }
+      .slide::-webkit-scrollbar-thumb {
+        width: 5px;
+      }
+      .slide::-webkit-scrollbar-track{
+        width: 3px;
+        height: 320px;
+      }
+      .slide::scrollbar{
+        width: 3px;
+        height: 320px;
+      }
+      .slide::scrollbar-thumb {
+        width: 5px;
+      }
+      .slide::scrollbar-track{
+        width: 3px;
+        height: 320px;
+      }
+
+
+/* class container2--nomuud */
+.container2{
+  margin-left: 10%;
+
+
+}
+ /* single.php --post---*/
+ .post1 {
+    text-align: justify;
+    margin-top:1px;
+    background-color: white;
+    width: 100%;
+    padding: 2%;
+    margin-top:220px;
+}
+  .post1 a{
+  	 text-align: center;
+  
+  }
+ #title1{
+    font-size: 20px;
+    color: #1b19c0;
+    padding-right: 10px;
+    padding-left: 10px;
+    position: relative;
+    text-align: center;
+    background-color: #fff;
+    margin: 0 auto;
+    max-width: 400px;
+    text-shadow: 0 0 1px #ced4e1;
+    max-height: 50px;
+}
+
+
+    .line{
+            border-bottom: 1.5px solid #a2a3e5;
+    display: inline-block;
+    float: left;
+    height: 1px;
+    margin: -10px 0 25px;
+    width: 100%;
+    }
+  .time{
+  	color: #b9b2b2;
+    text-align: right;
+    margin-top: 2%;
+
+
+  }
+
+
+/* slider */
+#section-2{
+  display: block;
+  background-color: white;
+}
+.photo1{
+  padding: 0px 10%;
+}
+#bg-grey{
+ margin-top: 2%;
+}
+
+.photo_ug{
+  margin-top: 5px;
+    margin-left: 92px;
+    color: red;
+    /* color: black; */
+    text-shadow: 0 0 black;
+    /* color: black; */
+    text-shadow: -1px 1px 2px rosybrown;
+
+}
+#btn2{
+     margin-right: 90px;
+}
+
+.pt-cv-pagination-wrapper {
+    clear: both;
+    position: relative;
+    text-align: center;
+    margin-top: -10px;
+    /* margin-bottom: 10px; */
+    padding: 0px 0px 1px 0px;
+    margin-bottom: 100px;
+}
+div.pt-cv-pagination-wrapper ul.pt-cv-pagination.pt-cv-normal.pagination li a {
+  text-align: center !important;
+}
+
+/* special-template */
+#them1{
+          margin-top: 240px;
+}
+.text1{
+  font-size: 15px;
+  text-align: justify;
+}
+.text2{
+  font-size: 15px;
+  text-align: justify;
+ margin:0px auto;
+}
+.text3{
+font-size: 20px;
+     color: #3e4095;
+    padding-right: 10px;
+    padding-left: 10px;
+    position: relative;
+    text-align: center;
+    background-color: #fff;
+    margin: 0 auto;
+    max-width: 500px;
+
+}
+
+    .content2
+    {
+          padding: 20px 25px;
+          background-color: white;
+    }
+ 
+    img {
+    vertical-align: middle;
+    float: left;
+    margin-right: 20px;
+}
+
+
+/* Page */
+.real_content
+{
+  background-color: white;
+}
+
+
+/* slider right */
+.Хичээлийн хуваарь{
+    border: 1px solid #1d4ba0;
+    border-radius: 4px;
+    margin-top: 10px;
+   
+}
+/*.Санал хүсэлт{
+    border: 1px solid #1d4ba0;
+    border-radius: 4px;
+    
+
+ slider right
+.Видео{
+    border: 1px solid #1d4ba0;
+    border-radius: 4px;
+    margin-top: 12px;*/
+
+.formList{
+  width: 100%;
+  border-top: 1px solid #e2e2e2;
+}
+.formList table thead{
+  color: #fff;
+  background-color:rgb(255, 153, 0);
+  font-size: 12px;
+}
+.formList table td{
+  vertical-align: middle!important;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+.formList table td:last-child{
+  background-color: rgb(86, 137, 230);
+  border: 1px solid #fff!important;
+  color: #fff;
+}
+.formList table td:nth-child(6){
+  background-color: rgb(23, 76, 175);
+}
+.formList table td:nth-child(10){
+  background-color: rgb(23, 76, 175);
+}
+.formList table td:nth-child(14){
+  background-color: rgb(23, 76, 175);
+}
+.formList table td:nth-child(18){
+  background-color: rgb(23, 76, 175);
+}
+.formList table th:nth-child(6){
+  background-color: rgb(23, 76, 175);
+}
+.formList table th:nth-child(10){
+  background-color: rgb(23, 76, 175);
+}
+.formList table th:nth-child(14){
+  background-color: rgb(23, 76, 175);
+}
+.formList table th:nth-child(18){
+  background-color: rgb(23, 76, 175);
+}
+.header .work .btn{
+  background: #CCC!important;
+}
+.header .work .btn.activeyear{
+  background-color: rgb(255, 153, 0)!important;
+}
+.formList table tr:hover td{
+  background-color: rgba(82,179,244,0.4);
+  border: 1px solid #fff!important;
+  color: #000000;
+}
+.formList table th{
+  font-weight: normal;
+  font-size: 14px;
+}
+.form-type-menu{
+  width: 100%;
+  display: table;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.form-type-menu div{
+  float: left;
+  color: #fff;
+}
+.form-type-menu div a{
+  color: #fff;
+  padding: 15px 5px;
+  display: block;
+  background-color:   rgba(0, 107, 168, 0.9);
+  transition: 0.3s all;
+  font-size: 12px;
+
+}
+body{
+  height: calc(100% - 120px);
+}
+.form-type-menu div a.active{
+  color: #fff;
+  background-color:   rgb(255, 153, 0);;
+  position: relative;
+}
+.form-type-menu div a.active:after {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(136, 183, 213, 0);
+  border-top-color: rgb(255, 153, 0);;
+  border-width: 20px;
+  margin-left: -20px;
+}
+.form-type-menu div a.active:hover{
+  color: #fff;
+  background-color:   rgb(255, 153, 0);
+}
+.form-type-menu div a:hover{
+  color: rgb(0, 59, 169);
+  background-color:   rgb(255, 255, 255);
+}
+.form-type-menu div a:first-child{
+  margin-left: 0px;
+}
+.formGroup{
+  text-align: center;
+}
+
+.formGroup:first-child{
+  margin-left: 0px!important;
+
+}
+.form-type{
+  height: 15px;
+}
+i.late{
+  color: rgb(255, 153, 0)!important;
+}
+i.complete{
+  color: #1AA51A!important;
+}
+i.empty{
+  color: #CE3449!important;
+}

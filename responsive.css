@@ -1,0 +1,412 @@
+@media only screen and (max-width: 1024px){
+	.navbar{
+		width: 100%;
+		margin-top:-35px;
+	}
+	.head{
+		margin-left:0px;
+		margin-top:-35px;
+	}
+	.head img{
+		margin-left:0px;
+	}
+	#menu-sub {
+		width:100%;
+		margin-top:-35px;
+	}
+	.head p.left , .head p.right {
+		display:none;
+	}
+	.room{display: none}
+	.menu-social-container{
+		width:300px;
+		margin-left:calc(100% - 300px);
+	}
+	li.social-icon i{
+		font-size:25px;
+	}
+	#searchform{
+		width:100% !important;
+		margin-top:-40px;
+		height: 40px;
+		margin-left:142px;
+		padding:0;
+	}
+	#searchform input[type=text]{
+		width: 100%;
+		height: 40px;
+		border:none;
+		margin-left:0;
+		margin-right: 100px;
+		text-align: center;
+		background:#7793c5;
+		color:white;
+		font-size:20px;
+	}
+	#searchform input[type=submit]{
+		display: none;
+	}
+	footer{
+		height: auto;
+	}
+	.container-1000{
+		width: 100%;
+		margin:0;
+	}
+	.footer{
+		width:100%;
+	}
+	#map{
+		width:calc(100% - 40px) !important;
+		margin-left:20px !important;
+	}
+	iframe{
+		width:100% !important;
+	}
+	.footer img{
+		display: none;
+	}
+	.school_text1{
+		padding: 20px;
+	    position: absolute;
+	    width:53%;
+	    text-align: justify;
+	    background: rgba(55, 56, 117, 0.44);
+	    color: #fff;
+	    border-radius: 4px;
+	    margin-top:-17px;
+	}
+	.шагнал{
+		width:35%;
+		height: auto;
+		margin-top:20px;
+		margin-left:59%;
+		position: absolute;
+	}
+	.school_text2{
+		margin-left:-20px;
+	}
+	.fullstack{
+		position: relative;
+		z-index: 1;
+		width: 100%;
+		height: auto;
+	}
+}
+@media only screen and (max-width: 780px){
+	.navbar{
+		display: none;
+		height: auto;
+		background:rgba(255,255,255,0.95);
+	}
+	.navbar ul li{
+		width: 100%;
+	}
+	.navbar ul li a{
+		width: 100%;
+	}
+	.head{
+		margin-left:0px;
+		margin-top:-35px;
+	}
+	.head img{
+		width:135px !important;
+		margin-left:0px;
+	}
+	#menu-sub{
+		margin-top:-100px;
+		display: none;
+	}
+	#menu-sub li{
+		width: 50%;
+		text-align: center;
+		padding:10px;
+	}
+	#menu-sub li a{
+		width:100%;
+	}
+	.menu-social-container{
+		width:300px;
+		margin-left:calc(50% - 100px);
+	}
+	li.social-icon i{
+		font-size:25px;
+	}
+	.wholecontent{
+		margin-top:70px;
+	}
+	i.fa.fa-bars{
+		position: fixed;
+		top:0;
+		right: 0;
+		color:#fff;
+		padding:15px;
+		font-size:35px;
+		cursor: pointer;
+		border:1px solid transparent;
+		display: block;
+	}
+	i.fa.fa-bars:hover{
+		transition: 0.2s;
+		background:rgba(255,255,255,1);
+		border:1px solid #1d4ba0;
+		color:#1d4ba0;
+	}
+	i.fa.fa-times{
+		position: fixed;
+		top:0;
+		right: 0;
+		color:#fff;
+		padding:15px;
+		font-size:35px;
+		cursor: pointer;
+		border:1px solid transparent;
+		display: block;
+	}
+	i.fa.fa-times:hover{
+		transition: 0.2s;
+		background:rgba(255,255,255,1);
+		border:1px solid #1d4ba0;
+		color:#1d4ba0;
+	}
+	.container-1000{
+		width: 100%;
+		margin:0;
+		margin-top:-150px !important;
+	}
+	.footer{
+		width:100%;
+	}
+	#map{
+		width:calc(100% - 40px) !important;
+		margin-left:20px !important;
+	}
+	iframe{
+		width:100% !important;
+	}
+	.footer img{
+		display: none;
+	}
+	#them1{
+		margin-top:120px !important;
+	}
+	.row{
+		margin-top:120px !important;
+		width: 100% !important;
+	}
+	.container-1000 img{
+		width:100%;
+		height: auto;
+	}
+	.side{
+		width: 100% !important;
+		padding:20px !important;
+	}
+	#myCarousel{
+		width:calc(100% + 40px) !important;
+	}
+	section{
+		width: 100% !important;
+		text-align: center !important;
+	}
+	#container1{
+		margin-top:190px !important;
+	}
+	.must-read{
+		margin-top:-120px !important;
+		margin-left:20px !important;
+	}
+	.smallbook1{
+		margin-top:-100px !important;
+	}
+	.smallbook2{
+		margin-top:-100px;
+	}
+	#btn2{
+		display: none;
+	}
+	#section-1{
+		padding:20px;
+	}
+	.smallbook{
+		width:80%;
+		margin-left:calc(10%);
+	}
+	.opacity1{
+		position: absolute;
+		background:rgba(0,0,0,0.5);
+		width:110%;
+		padding:10px;
+		color:#fff;
+	}
+	.opacity1 strong{
+		color:#fff;
+	}
+	.opacity2{
+		position: absolute;
+		background:rgba(0,0,0,0.5);
+		width:110%;
+		padding:30px;
+		color:#fff;
+	}
+	.opacity2 strong{
+		color:#fff;
+	}
+	.lib{
+		margin-top:20px;
+		margin-left:20px !important;
+	}
+	.photo_ug{
+		padding:5px !important;
+		margin-left:-15px !important;
+	}
+	footer{
+		padding-top:-50px !important;
+	}
+
+.content1{
+	margin-top:260px !important;	
+}
+.school_text1{
+	padding: 20px;
+    position: relative;
+    width:100%;
+    margin-left:0px;
+    text-align: justify;
+    background: rgba(55, 56, 117, 0.44);
+    color: #fff;
+    border-radius: 4px;
+    margin-top:200px;
+}
+#school_title1{
+	text-align: center;
+	width: 100%;
+	font-size:21px;
+	color:#fff;
+	margin-top:270px;
+}
+.шагнал{
+	position: relative;
+	width:100%;
+	left:-50%;
+	height: auto;
+	margin-top:20px;
+}
+.school_text2{
+	padding-top:220px !important;
+	margin:20px;
+	width: 100%;
+	padding:20px;
+	text-align: justify;
+}
+#title_school{
+    font-size: 17px;
+    color: #1b19c0;
+    padding-right: 10px;
+    padding-left: 10px;
+    position: relative;
+    text-align: center;
+    background-color: #fff;
+    margin: 0 auto;
+    text-shadow: 0 0 1px #ced4e1;
+    max-height: 50px;
+}
+.school_text2{
+	margin-top:-20px !important;
+	margin-left:-20px;
+	width: 100%;
+	padding:20px;
+	text-align: justify;
+}
+	.vnet_zvils, .hetiin_zorilgo, .erhem_zorilgo{
+		height: auto;
+		padding:0px;
+		margin-bottom:50px;	
+		text-align: justify;
+		margin-left:0px !important;
+		max-width: 100% !important;
+	}
+	.vnet_zvils:hover , .hetiin_zorilgo:hover , .erhem_zorilgo:hover{
+		transition: 0.2s;
+		box-shadow: 1px 1px 15px;
+	}
+	.vnet_zvils p, .hetiin_zorilgo p, .erhem_zorilgo p{
+		padding-left:0px !important;
+		max-width: 100% !important;
+	}
+	.vnet_zvils h4, .hetiin_zorilgo h4, .erhem_zorilgo h4{
+		padding-left:0px !important;
+		margin:5px;
+	}
+	.vnet_zvils img , .hetiin_zorilgo img , .erhem_zorilgo img{
+		width: 30px !important;
+		height: 30px !important;
+	}
+	.шагнал{
+		width: calc(100% - 20px);
+	}
+	.fullstack{
+		margin-top:-80px;
+		position: relative;
+		z-index: 1;
+		width: 700px;
+		height: auto;
+	}
+
+}
+@media only screen and (max-width: 550px){
+	.fullstack{
+		margin-top:-80px;
+		position: relative;
+		z-index: 1;
+		width: 700px;
+		height: auto;
+	}
+	#title_school{
+		font-size: 17px;
+	    color: #1b19c0;
+	    padding-right: 10px;
+	    padding-left: 10px;
+	    position: relative;
+	    text-align: center;
+	    background-color: #fff;
+	    margin: 0 auto;
+	    text-shadow: 0 0 1px #ced4e1;
+	    max-height: 50px;
+	}
+
+}
+@media only screen and (max-width: 425px){
+
+	.fullstack{
+		margin-top:-80px;
+		position: relative;
+		z-index: 1;
+		width: 700px;
+		height: auto;
+	}
+	.menu-social-container{
+		display: none;
+	}
+	.opacity1{
+		margin-top:-70px;
+	}
+	.opacity2{
+		margin-top:-70px;
+	}
+	#searchform{
+		display: none;
+	}
+	#title_school{
+		font-size: 17px;
+	    color: #1b19c0;
+	    padding-right: 10px;
+	    padding-left: 10px;
+	    position: relative;
+	    text-align: center;
+	    background-color: #fff;
+	    margin: 0 auto;
+	    text-shadow: 0 0 1px #ced4e1;
+	    max-height: 50px;
+	}
+}
