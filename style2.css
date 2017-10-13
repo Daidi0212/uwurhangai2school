@@ -1,0 +1,119 @@
+
+.formList{
+  width: 100%;
+  border-top: 1px solid #e2e2e2;
+}
+.formList table thead{
+  color: #fff;
+  background-color:rgb(255, 153, 0);
+  font-size: 12px;
+}
+.formList table td{
+  vertical-align: middle!important;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+.formList table td:last-child{
+  background-color: rgb(86, 137, 230);
+  border: 1px solid #fff!important;
+  color: #fff;
+}
+.formList table td:nth-child(6){
+  background-color: rgb(23, 76, 175);
+}
+.formList table td:nth-child(10){
+  background-color: rgb(23, 76, 175);
+}
+.formList table td:nth-child(14){
+  background-color: rgb(23, 76, 175);
+}
+.formList table td:nth-child(18){
+  background-color: rgb(23, 76, 175);
+}
+.formList table th:nth-child(6){
+  background-color: rgb(23, 76, 175);
+}
+.formList table th:nth-child(10){
+  background-color: rgb(23, 76, 175);
+}
+.formList table th:nth-child(14){
+  background-color: rgb(23, 76, 175);
+}
+.formList table th:nth-child(18){
+  background-color: rgb(23, 76, 175);
+}
+.header .work .btn{
+  background: #CCC!important;
+}
+.header .work .btn.activeyear{
+  background-color: rgb(255, 153, 0)!important;
+}
+.formList table tr:hover td{
+  background-color: rgba(82,179,244,0.4);
+  border: 1px solid #fff!important;
+  color: #000000;
+}
+.formList table th{
+  font-weight: normal;
+  font-size: 14px;
+}
+.form-type-menu{
+  width: 100%;
+  display: table;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.form-type-menu div{
+  float: left;
+  color: #fff;
+}
+.form-type-menu div a{
+  color: #fff;
+  padding: 15px 5px;
+  display: block;
+  background-color:   rgba(0, 107, 168, 0.9);
+  transition: 0.3s all;
+  font-size: 12px;
+
+}
+body{
+  height: calc(100% - 120px);
+}
+.form-type-menu div a.active{
+  color: #fff;
+  background-color:   rgb(255, 153, 0);;
+  position: relative;
+}
+.form-type-menu div a.active:after {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(136, 183, 213, 0);
+  border-top-color: rgb(255, 153, 0);;
+  border-width: 20px;
+  margin-left: -20px;
+}
+.form-type-menu div a.active:hover{
+  color: #fff;
+  background-color:   rgb(255, 153, 0);
+}
+.form-type-menu div a:hover{
+  color: rgb(0, 59, 169);
+  background-color:   rgb(255, 255, 255);
+}
+.form-type-menu div a:first-child{
+  margin-left: 0px;
+}
+.formGroup{
+  text-align: center;
+}
+
+.formGroup:first-child{
+  margin-left: 0px!important;
+
+}
